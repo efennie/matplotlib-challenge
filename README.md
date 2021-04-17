@@ -1,1 +1,7 @@
 # matplotlib-challenge
+
+The main_mice.ipynb contains code to run analysis on two csv files containing data on a study done on mice running several drug treatments against squamous cell carcinoma (SCC). There were ten different drug regimens used to treat the SCC tumors on the mice, they were Ramicane, Capomulin, Infubinol, Placebo, Ceftamin, Stelasyn, Zoniferol, Ketapril, Propriva, and Naftisol.
+
+The main_mice.ipynb code imports and reads two csv files, deletes duplicate data points, runs analysis on measurements of central tendencies for each drug and compiles a summary table for each. It then allows the user to plot the measurements taken on all mice within a drug regimen as a bar graph, separates the data by gender, and plots that information as a pie plot. The data is further broken down by final tumor volume per mouse id per drug regimen. A for loop will pull out final volume information per drug regimen and that is used to plot box and whisker plots for four drug regimens and calculate quartiles and potential outliers for each regimen. 
+
+Next, an individual mouse on Capomulin is chosen and tumor volume vs. time is plotted as a line graph. Finally, The Capomulin final tumor volume data is plotted against the individual mice weight as a scatter plot and an equation for linear regression is calculated and inserted onto the scatter plot. 
